@@ -10,6 +10,10 @@ no Boot Camp FullStack Philips | You are you:
 ## Visão Geral de Pensamento Computacional
 
 
-1
+
+
+
+
+
 ## Links Úteis
 [Sintáxe básica markdown](https://programming.vip/docs/markdown-basic-syntax.html)
