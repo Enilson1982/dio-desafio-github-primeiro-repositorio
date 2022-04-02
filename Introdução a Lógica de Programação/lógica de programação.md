@@ -40,6 +40,9 @@
        
  Uma das formas de programar é usando fluxograma:
        
+    
+    ![Fluxograma](https://github.com/Enilson1982/dio-desafio-github-primeiro-repositorio/imagem/fluxograma.jpg)
+       
        
 Entretanto apenas da forma demonstrada que conseguir realizar o processo de git push e git fetch.
 Seguindo esses passos que aprendi com o orientador: @Denilson bonatti._ da Dio. 
