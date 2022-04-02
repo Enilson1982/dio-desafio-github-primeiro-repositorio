@@ -71,23 +71,28 @@ Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
       
       Essa foi a parte de entendimento do programa flowgorithm.org.
       
-      Outro programa aprendido foi o Portugol Studio:
+     ##### Outro programa aprendido foi o Portugol Studio:
+	   <http://lite.acad.univali.br/portugol/> 
       
       ~~~~
       programa
   {	
-	funcao inicio()
-	{
-	real nota1,nota2,nota3,nota4,media   // Declarar
-	cadeia aluno                         // Declarar nesse caso usa cadeia para 
-                                          caracteres de palavras
+	funcao inicio()	
+	    {
+	    
+ // Declarar: nesse caso usa "cadeia" para  caracteres de palavras e "real" para adquirir números.
+	    
+	 
+	    real nota1,nota2,nota3,nota4,media    
+	    cadeia aluno                          
 	                                    
       
-                                      // Aparece escreva ("aparece o que está                                     escrito na tela para o usuário digitar")                                                  leia (ler o dado declarado)
+       // Aparece escreva ("aparece o que está escrito na tela para o usuário digitar") e leia (ler o dado declarado):
                                 
- 
-    escreva ("digite seu nome: ")                                             
-    leia (aluno)                          
+                    
+	    
+            escreva ("digite seu nome: ")                                             
+            leia (aluno)                          
 		escreva("digite a nota 1: ")
 		leia (nota1)
 		escreva("digite a nota 2: ")
@@ -102,7 +107,8 @@ Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
       
 		media = (nota1+nota2+nota3+nota4)/4
 
-                                        //Abaixo esta a cotatenação na função                                           escreva nesse caso é cotatenado com                                             o símbolo de + 
+                                        //Abaixo esta a cotatenação na função 
+	                               escreva nesse caso é cotatenado com o + 
       
 		escreva ("O nome do aluno é: " + aluno + ", sua média é: " + media)
 	}
