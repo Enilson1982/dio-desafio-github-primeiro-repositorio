@@ -27,4 +27,9 @@ Entretanto, por ainda ser algo em estágio inicial, muitas instituições de ens
 
 O pensamento computacional envolve a capacidade de usar os fundamentos da computação para resolver problemas em diversas áreas. Esta competência, que se baseia em quatro pilares, é muito importante para que as crianças e adolescentes de hoje tenham mais oportunidades no futuro.
 
+Foram estes ensinamentos absorvidos com o orientadora: Juliana Mascaranhas da Dio. 
+Bootcamp - Philips Fullstack Developer | You Are You 
+
+[outra referência de estudo](https://www.campusvilla.com.br/pensamento-computacional/)
+
 
