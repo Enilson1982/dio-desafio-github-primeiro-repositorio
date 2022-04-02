@@ -1,3 +1,6 @@
+	    
+##### [Retorne a página principal](https://github.com/Enilson1982/dio-desafio-github-primeiro-repositorio/blob/main/README.md)	
+
 # Introdução a Lógica de programação <h1>
 
 ###### Programar é resolver problemas.  
@@ -275,6 +278,4 @@ e limita que seja menor que três.
 Foram estes ensinamentos absorvidos com o orientador: @Denilson bonatti._ da Dio. 
 Bootcamp - Philips Fullstack Developer | You Are You 
 ~~~
-	    
-## Retorne a página principal	    
-[Inicio](https://github.com/Enilson1982/dio-desafio-github-primeiro-repositorio/blob/main/README.md)	    
+    
