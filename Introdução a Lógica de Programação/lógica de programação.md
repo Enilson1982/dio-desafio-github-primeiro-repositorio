@@ -71,10 +71,13 @@ Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
       
       Essa foi a parte de entendimento do programa flowgorithm.org.
       
-     ##### Outro programa aprendido foi o Portugol Studio:
-	   <http://lite.acad.univali.br/portugol/> 
+	    
+#### Outro programa aprendido foi o Portugol Studio: 
+	   
+	    http://lite.acad.univali.br/portugol/
       
-      ~~~~
+	    
+~~~~
       programa
   {	
 	funcao inicio()	
@@ -116,42 +119,151 @@ Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
 		
 		
 	}
-      ~~~~
+~~~~
       
-      
+#### Repetição
       
 programa
 {
 	
 	funcao inicio()
 	{
+	 // Declarar números inteiros               
+	    
 		inteiro contador, limite, resultado, tabuada
 
+	    //   Dar valores ao número
+	    
 		contador = 0
 		limite = 10
+	    
+	    // Apresenta a pergunta e pede o número
 
 		escreva ("Qual tabuada você quer que eu resolva?")
 		leia  (tabuada)
+	    
+	// Usaa variavel faca(faça)	
 		
-		faca
+	    faca
 		{ 
-			resultado = tabuada * contador
+	    // coloca a expressão
+	    
+		resultado = tabuada * contador
+	    
+	    
+	    // O que vai aparecer para o usuário
+	    
 			escreva (tabuada + " x " + contador + " = " + resultado + "\n")
-			contador ++
-			
+		
+	    
+	    // Aqui ele idica que é para maquina contar na condição abaixo	
+	    
+	    
+	      contador ++
+		
+	    // Esra é a condição da contagem automática entre contador e limite  
+	    
+	   
 		}enquanto (contador<=limite)
 
 		
 	}
 }
-      
-     Esse programa foi feito da seguinte forma: apartir da segunda chave digita: real nota1,nota2,nota3,nota4,media
-       
-       depois vem o local para Declarar, onde serão colocados os elemento trabalhados: onde você pode declarar rm forma de texto, real      
-       
-           
-       
-       
-Entretanto apenas da forma demonstrada que conseguir realizar o processo de git push e git fetch.
-Seguindo esses passos que aprendi com o orientador: @Denilson bonatti._ da Dio. 
+					    
+~~~~~~
+				
+					 
+#### Matriz
+					    
+					    
+~~~~				    
+	programa
+{
+	
+	funcao inicio()
+					    
+	{
+	
+A Matriz funciona como a seguinte tabela
+	
+[] []
+ 
+Os dois primeiros colchetes representam  Y que pode variar infinitamente, como as linhas.
+		
+|Ponto Y|
+------------
+| 0 |
+| 1 |
+| 2 |
+| 3 |
+					    
+					 
+Já os outros dois representam as duas colunas				    
+					    
+					    
+         |Ponto X|
+------------------------------					       
+|   0	  |    1   |	
+------------------------------
+		  			
+Juntado os dois temos a seguinte tabela:
+					    
+            |           X            |
+-------------------------------------------
+|           |    0      |      1     |
+-------------------------------------------
+|     Y     |
+------------------------------------------					   
+|     0     | [0] [0]    |  [0] [1]   |
+|     1     | [1] [0]    |  [1] [1]   |
+|     2     | [2] [0]    |  [2] [1]   | 
+|     3     | [3] [0]    |  [3] [0]   |			    
+					    
+// Abaixo os elemento dentro de cada chave o esquerdo representa o 0 e da direita o 1.
+A primeira chave representa o n=umero 0 a segunda o 1 e a terceira o 3 sucessivamente
+					    
+|cadeia dados[][]={{"João","São Paulo"},{"Ana","Salvador"},{"Maria","Pernambuco"},{"(71) 9999-6666","(74) 9999-0000"},{"(11) 9999-77777", (71) 99999-4444}}|  
+
+// Para aparecer determinado elemento com sua localização X (direita ou esquerda)  e a Y (cada chave) 					    
+	ex: [0] [0] aparece o nome João
+	    [4] [0] aparece (71) 9999-6666				    
+	    [3] [1] aparece Pernambuco
+	    [0] [1] aparece São Paulo				    
+					    
+	     escreva ("Nome: ")
+	     escreva (dados[0][0]  + "         " + dados[1][0] + "       " + dados[2][0] + ("\n")) 
+	     escreva ("Estado: ")
+	     escreva (dados[0][1]  + "  " + dados[1][1] + "  " + dados[2][1] + ("\n")) 
+	     escreva ("Telefone: ")
+	     escreva (dados[3][0]  + "  " + dados[3][1] + "  " + dados[4][0] + ("\n")) 
+	     
+	}
+}				    
+					    
+~~~~					    
+	programa
+{
+	
+	funcao inicio()
+	 
+\\ Declara com Inteiro e diz com quanto quer começar					    
+\\ Declara a Cadeia com matriz					    
+	{
+		inteiro contador =0
+		cadeia cesta[][]={{"pera","100"},{"jaca","200"},{"maçã","900"},{"uva","89"}}
+
+\\ Usa a função faca e orienta  que siga apresentando todos elementos da coluna 0 e depois todos da coluna 1
+e limita que seja menor que três.					    
+					    
+	    faca{
+	    	escreva ("Produtos: " + cesta [contador][0] + "Quantidade: " + cesta [contador][1] + "\n")
+	   contador++
+	    }enquanto (contador<=3)
+	}
+}		
+	    
+	    
+	    
+	    
+#### Foram estes ensinamentos absorvidos com o orientador: @Denilson bonatti._ da Dio. 
 Bootcamp - Philips Fullstack Developer | You Are You  
