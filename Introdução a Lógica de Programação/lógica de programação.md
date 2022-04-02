@@ -41,8 +41,8 @@
  Uma das formas de programar é usando fluxograma: Através do programa "flowgorithm.org" é possível criar alguns programas com esse recurso.
  A lógica dele é a seguinte: 
        
- Vem o comando PrincipaL automáticamente e uma seta pra baixo clicando nessa seta aparece as opsões que será a declaração a ser escolhida;
- Na opção Declarar pode-se escolher em forma de Texto ai digita: nome, sobrenome, idade
+ Vem o comando Principal automáticamente e uma seta pra baixo clicando nessa seta aparece as opções que será a declaração a ser escolhida;
+ Na opção Declarar pode-se escolher em forma de Texto então digita: nome, sobrenome, idade
  Na seguinte seta pode-se escolher a opção Escrever "Qual é seu nome?" é o que vai aparecer para o usuário.
  Na seguinte seta pode-se escolher a opção Ler nome (a máquina vai solicitar que digito o nome);
  Na seguinte seta pode-se escolher a opção Escrever ", Qual é seu sobrenome?" é o que vai aparecer para o usuário.
@@ -51,7 +51,7 @@
  Na seguinte seta pode-se escolher a opção Ler nome (a máquina vai solicitar que digite  idade)
        
 Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
-      Pode-se declarar também a opção Real ou Inteiro onde o programa vai aceitar apenas núme para Ler.
+      Pode-se declarar também a opção Real ou Inteiro onde o programa vai aceitar apenas números para Ler.
       Pode-se atribuir uma operação ao nome declarado como Real ou Inteiro:
       ex: atribuir > 
       nome da variável media  ,  Expressão  (nota1+nota2+nota3+nota4)/4
@@ -73,7 +73,8 @@ Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
       
 	    
 #### Outro programa aprendido foi o Portugol Studio: 
-	   
+
+	    
 	    http://lite.acad.univali.br/portugol/
       
 	    
@@ -121,7 +122,7 @@ Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
 	}
 ~~~~
       
-#### Repetição
+### Repetição
       
 programa
 {
@@ -161,7 +162,7 @@ programa
 	    
 	      contador ++
 		
-	    // Esra é a condição da contagem automática entre contador e limite  
+	    // Essa é a condição da contagem automática entre contador e limite  
 	    
 	   
 		}enquanto (contador<=limite)
@@ -170,13 +171,13 @@ programa
 	}
 }
 					    
-~~~~~~
+~~~~
 				
 					 
-#### Matriz
+Matriz
 					    
 					    
-~~~~				    
+				    
 	programa
 {
 	
@@ -185,13 +186,13 @@ programa
 	{
 	
 A Matriz funciona como a seguinte tabela
-	
-[] []
+	-------
+        [] []
  
 Os dois primeiros colchetes representam  Y que pode variar infinitamente, como as linhas.
 		
-|Ponto Y|
-------------
+ |Ponto Y|
+ ------------
 | 0 |
 | 1 |
 | 2 |
@@ -201,7 +202,7 @@ Os dois primeiros colchetes representam  Y que pode variar infinitamente, como a
 Já os outros dois representam as duas colunas				    
 					    
 					    
-         |Ponto X|
+|Ponto X|
 ------------------------------					       
 |   0	  |    1   |	
 ------------------------------
@@ -210,7 +211,7 @@ Juntado os dois temos a seguinte tabela:
 					    
             |           X            |
 -------------------------------------------
-|           |    0      |      1     |
+            |    0      |      1     |
 -------------------------------------------
 |     Y     |
 ------------------------------------------					   
@@ -219,12 +220,15 @@ Juntado os dois temos a seguinte tabela:
 |     2     | [2] [0]    |  [2] [1]   | 
 |     3     | [3] [0]    |  [3] [0]   |			    
 					    
+
 // Abaixo os elemento dentro de cada chave o esquerdo representa o 0 e da direita o 1.
 A primeira chave representa o n=umero 0 a segunda o 1 e a terceira o 3 sucessivamente
-					    
-|cadeia dados[][]={{"João","São Paulo"},{"Ana","Salvador"},{"Maria","Pernambuco"},{"(71) 9999-6666","(74) 9999-0000"},{"(11) 9999-77777", (71) 99999-4444}}|  
 
-// Para aparecer determinado elemento com sua localização X (direita ou esquerda)  e a Y (cada chave) 					    
+					    
+cadeia dados[][]={{"João","São Paulo"},{"Ana","Salvador"},{"Maria","Pernambuco"},{"(71) 9999-6666","(74) 9999-0000"},{"(11) 9999-77777", (71) 99999-4444}}  
+
+					    
+// Para aparecer determinado elemento com sua localização X (direita ou esquerda)  e a Y (cada chave) 					    ------------------------------------------
 	ex: [0] [0] aparece o nome João
 	    [4] [0] aparece (71) 9999-6666				    
 	    [3] [1] aparece Pernambuco
@@ -239,7 +243,9 @@ A primeira chave representa o n=umero 0 a segunda o 1 e a terceira o 3 sucessiva
 	     
 	}
 }				    
-					    
+~~~~
+Matriz com repetição					    
+
 ~~~~					    
 	programa
 {
@@ -262,8 +268,7 @@ e limita que seja menor que três.
 	}
 }		
 	    
+	    	    
 	    
-	    
-	    
-#### Foram estes ensinamentos absorvidos com o orientador: @Denilson bonatti._ da Dio. 
+Foram estes ensinamentos absorvidos com o orientador: @Denilson bonatti._ da Dio. 
 Bootcamp - Philips Fullstack Developer | You Are You  
