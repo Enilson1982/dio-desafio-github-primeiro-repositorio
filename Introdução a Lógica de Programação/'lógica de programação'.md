@@ -75,7 +75,7 @@ Ao dar Play > o programa vai perguntar o nome sobrenome e a idade.
 #### Outro programa aprendido foi o Portugol Studio: 
 
 	    
-	    http://lite.acad.univali.br/portugol/
+[Programa](http://lite.acad.univali.br/portugol/)
       
 	    
 ~~~~
@@ -183,9 +183,11 @@ Matriz
 	
 	funcao inicio()
 					    
-	{
-	
-A Matriz funciona como a seguinte tabela
+	}
+					    
+					    
+A Matriz funciona como a seguinte tabela:
+					    
 	-------
         [] []
  
