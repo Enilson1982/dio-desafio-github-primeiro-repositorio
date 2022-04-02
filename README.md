@@ -13,7 +13,8 @@
 
 
 
-
+Atividade passada pelo orientador: Venilton Falvo Jr da Dio. 
+Bootcamp - Philips Fullstack Developer | You Are You 
 
 ## Links Úteis
 [Sintáxe básica markdown](https://programming.vip/docs/markdown-basic-syntax.html)
