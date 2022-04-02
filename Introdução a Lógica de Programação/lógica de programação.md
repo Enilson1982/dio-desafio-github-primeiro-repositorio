@@ -31,38 +31,16 @@
      ==    | igualdade
      !=    | diferente
     <=     | menor que
+     ^     | potência
+     %     | porcentagem  
+     /     | divisão
+     *     | multiplicação
+     +     | soma
+     -     | subtração
+       
+ Uma das formas de programar é usando fluxograma:
        
        
-       
- Segue link para baixar o terminal Git: <https://git-scm.com/>
-(escolha o mesmo sistema operacional que está em sua maquina) e
-este para abrir uma conta no Github: https://github.com/.
-
-O Git funciona na sua máquina e o Github nas nuvens.
-
-## Alguns comandos utilizados pelos Git Bash:
-
-WIndows     |       Linux     |         Ação
------------ | --------------- |------------------
-mkdir       |       mkdir     |   (Cria uma pasta)
-mv          |       mv        |     (Remove um arquivo)
-del/rmdir   |       rm-rf     |     (Remove diretório) 
-cd          |       cd        |     (Abri uma pasta)
-cd..        |       cd..      |     (volta a pasta anterior)
-cls         |       clear     |     (limpa tela)
-ls          |       ls        |     (mostra o conteúdo da pasta)
-ls -a       |       ls -a     |     (mostra os ocultos)
-
-## O Git possui internamente:
-
-Blobs
-Trees
-Commits
-
-## Para configurar o Git Bahs é necessário utilizar os seguintes passo:
-
-
-
 Entretanto apenas da forma demonstrada que conseguir realizar o processo de git push e git fetch.
 Seguindo esses passos que aprendi com o orientador: @Denilson bonatti._ da Dio. 
 Bootcamp - Philips Fullstack Developer | You Are You  
