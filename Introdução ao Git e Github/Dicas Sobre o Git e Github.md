@@ -142,12 +142,19 @@ Por fim use
 
                             ssh-add id_ed25519
 
+Esse comando serve para ver se a conexão está funcionando:  ssh -T git@github.com 
 
-Siga para pasta do arquivo criado a do init:
+Siga para pasta do arquivo criado e utilize o comando git init:
 
 cd \c\dio\atividade 
 
 com a pasta aberta pode usar os comandos: 
+
+adicione os arquivos:  git add nome.txt
+
+
+faça o commit usando: git commit -m primeiroarquivo
+
 
 git push cole o endereço copiado no repositorio do Github
 
