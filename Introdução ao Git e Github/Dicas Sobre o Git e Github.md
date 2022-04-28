@@ -142,7 +142,7 @@ Por fim use
 
                             ssh-add id_ed25519
 
-Esse comando serve para ver se a conexão está funcionando:  */ssh -T git@github.com 
+Esse comando serve para ver se a conexão está funcionando:  ssh -T git@github.com 
 
 Siga para pasta do arquivo criado e utilize o comando git init:
 
